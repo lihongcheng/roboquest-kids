@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   // IMPORTANT: This must match your repository name for GitHub Pages
-  base: '/roboquest-kids/',
+  base: './',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
