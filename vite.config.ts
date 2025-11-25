@@ -7,7 +7,7 @@ export default defineConfig({
   // IMPORTANT: This must match your repository name for GitHub Pages
   base: './',
   build: {
-    outDir: 'dist',
+    outDir: 'docs',
     assetsDir: 'assets',
     sourcemap: false,
   }
